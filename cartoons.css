@@ -1,0 +1,110 @@
+@font-face {
+	font-family: 'Beirnite';
+	src: url('fonts/Beirnite.ttf');
+}
+
+@font-face {
+	font-family: 'Blackbird';
+	src: url('fonts/Blackbird.ttf');
+}
+
+html, * {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-family: 'Blackbird';
+}
+
+ h4 {
+	font-family: 'Beirnite';
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	color: blue;
+}
+
+nav {
+	margin: 0 auto;
+	width: 90%;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.navigation-list-item {
+	display: inline-block;
+	padding: 20px;
+}
+
+.page-title {
+	padding-top: 15px;
+	text-align: center;
+	font-size: 50px;
+	margin-bottom: 10px;
+}
+
+.home-page {
+	background-color: white;
+}
+
+.steven-page {
+	background-color: pink;
+}
+
+.miraculous-page {
+	background-color: lightblue;
+}
+
+.row-1 img, .row-2 img, .row-3 img, .row-4 img {
+	width: 50%;
+	height: 400px;
+	float: left;
+	clear: both;
+}
+
+.container {
+	padding: 20px;
+	border: 3px solid #000;
+	width: 500px;
+	margin: 10px auto;
+	overflow: auto; 
+	background-color: white;
+}
+
+.container img {
+	width: 100%;
+}
+
+.two-floated-images img {
+	float: left;
+	width: 35%;
+	margin-right: 15px;
+	margin-bottom: 5px;
+}
+
+.two-floated-images .on-top {
+	width: 35%;
+	clear: both;
+}
+
+.row-1 .text-container {
+	margin-bottom: 230px;
+
+}
+
+.row-2 .text-container {
+	margin-bottom: 290px;
+
+}
+
+.row-3 .text-container {
+	margin-bottom: 190px;
+
+}
